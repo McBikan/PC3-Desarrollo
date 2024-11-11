@@ -82,3 +82,4 @@ if __name__ == "__main__":
     # Mostrar el índice invertido
     indice_invertido.mostrar_indice()
 ```
+hola
