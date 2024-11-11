@@ -1,0 +1,6 @@
+pytest
+numpy
+requests
+pytest-cov
+abc
+unittest

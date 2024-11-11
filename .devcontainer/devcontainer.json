@@ -1,5 +1,5 @@
 {
-  "name": "Python Dev Container",
+  "name": "BrianHuaman",
   "image": "python:3.12.6",
   "extensions": [
       "ms-python.python"
