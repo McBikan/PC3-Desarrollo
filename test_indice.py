@@ -54,7 +54,7 @@ class TestIndiceInvertido(unittest.TestCase):
         indexar_documento(doc1, indice_invertido)
         indexar_documento(doc2, indice_invertido)
         
-        # Elegimos e término profesor para simular la búsqueda
+        # Elegimos el término profesor para simular la búsqueda
         resultado = indice_invertido.buscar("profesor")
         
         # Verificar que el resultado contenga los documentos correctos
@@ -87,7 +87,7 @@ class TestIndiceInvertido(unittest.TestCase):
         indexar_documento(fake_doc2, indice_invertido)
         
         # Verificar que los documentos fake se han indexado correctamente
-        resultado = indice_invertido.buscar("fake")
+        resultado = indice_invertido.buscar("fake")  #Buscamos 
         self.assertEqual(len(resultado), 2)
         self.assertEqual([doc.doc_id for doc in resultado], [1, 2])
 

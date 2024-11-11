@@ -4,3 +4,4 @@ requests
 pytest-cov
 abc
 unittest
+nltk
