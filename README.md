@@ -5,7 +5,7 @@ Implementaciones: DevContainer   OK
 
 Parte 1
 Item 1
-```java
+```python
 import re
 
 # Clase Documento: Representa cada documento con atributos como id, contenido, fecha, autor, etc.
