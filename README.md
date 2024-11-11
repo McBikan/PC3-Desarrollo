@@ -82,4 +82,26 @@ if __name__ == "__main__":
     # Mostrar el índice invertido
     indice_invertido.mostrar_indice()
 ```
-hola
+Salida:
+```plaintext
+root@39196564846c:/workspace# python indice.py
+Termino: el - Documentos: [1, 1, 2, 3]
+Termino: profesor - Documentos: [1, 2]
+Termino: me - Documentos: [1]
+Termino: califico - Documentos: [1]
+Termino: bajo - Documentos: [1]
+Termino: en - Documentos: [1]
+Termino: parcial - Documentos: [1]
+Termino: dedesarrollo - Documentos: [2]
+Termino: de - Documentos: [2, 3, 3]
+Termino: software - Documentos: [2, 3]
+Termino: se - Documentos: [2]
+Termino: llama - Documentos: [2]
+Termino: césar - Documentos: [2]
+Termino: lara - Documentos: [2]
+Termino: tower - Documentos: [3]
+Termino: defense - Documentos: [3]
+Termino: es - Documentos: [3]
+Termino: proyecto - Documentos: [3]
+Termino: desarrollo - Documentos: [3]
+```
